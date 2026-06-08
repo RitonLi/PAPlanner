@@ -61,6 +61,7 @@ main {
   border: 1px solid transparent;
 }
 
+/* PDF 按钮样式 */
 .btn-primary {
   background-color: #000;
   color: #fff;
@@ -71,14 +72,15 @@ main {
   transform: translateY(-2px);
 }
 
+/* Code 按钮样式（已修改为与 PDF 一致的黑色） */
 .btn-secondary {
-  background-color: #f0f0f0;
-  color: #000;
-  border-color: #ccc;
+  background-color: #000; /* 背景改为黑色 */
+  color: #fff;            /* 文字改为白色 */
+  border-color: #000;     /* 边框统一为黑色 */
 }
 
 .btn-secondary:hover {
-  background-color: #e0e0e0;
+  background-color: #333; /* 悬停时变亮一点 */
   transform: translateY(-2px);
 }
 
