@@ -110,6 +110,15 @@ main {
   display: block;
 }
 
+
+.abstract-text {
+  text-align: justify;      /* 核心：两端对齐 */
+  hyphens: auto;            /* 允许断字，防止间距过大 */
+  -webkit-hyphens: auto;    /* 兼容 Safari/Chrome */
+}
+
+
+
 /* 视频响应式容器 (16:9 宽高比) */
 .video-wrapper {
   position: relative;
